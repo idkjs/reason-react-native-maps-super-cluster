@@ -1,1 +1,11 @@
-node_modules/
+# macOS Finder artifacts
+.DS_Store
+
+# node
+node_modules
+
+# ocaml/reason build artifacts
+.bsb.lock
+**/lib/bs
+**/lib/ocaml
+**/.merlin

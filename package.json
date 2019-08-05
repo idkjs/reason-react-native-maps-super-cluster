@@ -9,10 +9,8 @@
   },
   "homepage": "https://github.com/Own-The-Spot/reason-react-native-maps-super-cluster#readme",
   "scripts": {
-    "clean": "bsb -clean-world",
-    "start": "bsb -make-world -w",
-    "build": "bsb -make-world",
-    "clean-build": "bsb -clean-world -make-world"
+    "build": "bsb -make-world -clean-world",
+    "watch": "bsb -make-world -clean-world -w"
   },
   "repository": {
     "type": "git",
