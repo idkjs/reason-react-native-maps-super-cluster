@@ -1,0 +1,38 @@
+{
+  "name": "reason-react-native-maps-super-cluster",
+  "version": "1.0.0",
+  "description": "Reason bindings for react-native-maps-super-cluster",
+  "author": "Own It Technologies, Inc. <contact@ownitskateboards.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Own-The-Spot/reason-react-native-maps-super-cluster/issues"
+  },
+  "homepage": "https://github.com/Own-The-Spot/reason-react-native-maps-super-cluster#readme",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w",
+    "build": "bsb -make-world",
+    "clean-build": "bsb -clean-world -make-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Own-The-Spot/reason-react-native-maps-super-cluster.git"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "react-native",
+    "react-native-maps-supercluster"
+  ],
+  "peerDependencies": {
+    "bs-platform": "~5.0.4",
+    "react-native": "~0.59.9",
+    "reason-react": "^0.7.0",
+    "reason-react-native": "^0.60.0",
+    "react-native-maps": "~0.24.0"
+  },
+  "dependencies": {
+    "react-native-maps-super-cluster": "^1.5.0"
+  }
+}
