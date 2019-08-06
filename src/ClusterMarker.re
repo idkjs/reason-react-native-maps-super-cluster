@@ -1,10 +1,12 @@
-/* ClusterMarker.propTypes = {
+/* Based on react-native-maps-super-cluster v1.5.0
+ClusterMarker.propTypes = {
   renderCluster: PropTypes.func,
   onPress: PropTypes.func.isRequired,
   geometry: PropTypes.object.isRequired,
   properties: PropTypes.object.isRequired,
 } */
 
+// No idea what this should be
 type onPressType = {
   .
 };
