@@ -21,6 +21,7 @@
     "reasonml",
     "bucklescript",
     "react-native",
+    "react-native-maps",
     "react-native-maps-supercluster"
   ],
   "peerDependencies": {

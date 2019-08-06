@@ -1,4 +1,4 @@
-# Reason-react-native-maps-super-cluster
+# reason-react-native-maps-super-cluster
 
 ReasonML bindings for `react-native-maps-super-cluster`
 
@@ -25,3 +25,8 @@ let make = children => {
     />
 };
 ```
+
+## TODO
+
+- Make it work :)
+- Publish https://redex.github.io/publish
