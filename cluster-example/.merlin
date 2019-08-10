@@ -1,0 +1,17 @@
+####{BSB GENERATED: NO EDIT
+B lib\bs
+FLG -open ReasonReactNativeMapsSuperCluster
+FLG -ppx "C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\bsppx.exe -bs-jsx 3"
+S C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\ocaml
+B C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\ocaml
+FLG -nostdlib -color always
+FLG -w -30-40+6+7+27+32..39+44+45+101
+S C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react\lib\ocaml
+B C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react\lib\ocaml
+S C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native\lib\ocaml
+B C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native\lib\ocaml
+S C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native-maps\lib\ocaml
+B C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native-maps\lib\ocaml
+S src
+B lib\bs\src
+####BSB GENERATED: NO EDIT}

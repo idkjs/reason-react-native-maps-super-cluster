@@ -1,0 +1,27 @@
+# ninja log v5
+0	34	5871770585947623	ReasonReactNativeMapsSuperCluster.cmi	1bf8c34c4313b078
+11	90	5871770586516096	src/Map.mlast	cc22fe3452bc880f
+90	102	5871770586765436	src/Map.d	580810452b058cef
+105	138	5871770587094557	src/Map-ReasonReactNativeMapsSuperCluster.cmj	6939155583097583
+105	138	5871770587094557	C:/Users/Christopher/repositories/reason-react-native-maps-super-cluster/cluster-example/src/Map.bs.js	6939155583097583
+105	138	5871770587094557	src/Map-ReasonReactNativeMapsSuperCluster.cmi	6939155583097583
+11	28	5871770684113724	ReasonReactNativeMapsSuperCluster.cmi	1bf8c34c4313b078
+1	74	5871770685081140	src/Map.mlast	cc22fe3452bc880f
+74	85	5871770685081140	src/Map.d	580810452b058cef
+85	118	5871770685081140	src/Map-ReasonReactNativeMapsSuperCluster.cmj	6939155583097583
+85	118	5871770685081140	C:/Users/Christopher/repositories/reason-react-native-maps-super-cluster/cluster-example/src/Map.bs.js	6939155583097583
+85	118	5871770685081140	src/Map-ReasonReactNativeMapsSuperCluster.cmi	6939155583097583
+0	26	5871771793386532	ReasonReactNativeMapsSuperCluster.cmi	1bf8c34c4313b078
+7	79	5871771793935066	src/ClusteredMapView.mlast	d0bbaa32ad2c1d66
+79	97	5871771794154711	src/ClusteredMapView.d	4f1f336e59ef4144
+98	169	5871771794852602	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmj	37ed6ec252f49bbe
+98	169	5871771794852602	C:/Users/Christopher/repositories/reason-react-native-maps-super-cluster/cluster-example/src/ClusteredMapView.bs.js	37ed6ec252f49bbe
+98	169	5871771794852602	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmi	37ed6ec252f49bbe
+1	20	5871772136775454	ReasonReactNativeMapsSuperCluster.cmi	1bf8c34c4313b078
+20	56	5871771793935066	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmj	ae18ea7ed232153c
+20	56	5871771793935066	C:/Users/Christopher/repositories/reason-react-native-maps-super-cluster/cluster-example/src/ClusteredMapView.bs.js	ae18ea7ed232153c
+20	56	5871771793935066	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmi	ae18ea7ed232153c
+1	24	5871772262707474	ReasonReactNativeMapsSuperCluster.cmi	1bf8c34c4313b078
+24	59	5871771793935066	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmj	37ed6ec252f49bbe
+24	59	5871771793935066	C:/Users/Christopher/repositories/reason-react-native-maps-super-cluster/cluster-example/src/ClusteredMapView.bs.js	37ed6ec252f49bbe
+24	59	5871771793935066	src/ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmi	37ed6ec252f49bbe

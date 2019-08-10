@@ -1,0 +1,36 @@
+g_pkg_flg = -bs-package-name reason-react-native-maps-super-cluster -bs-ns ReasonReactNativeMapsSuperCluster
+src_root_dir = C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example
+bsc = C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\bsc.exe
+bsdep = C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\bsb_helper.exe
+warnings = -w -30-40+6+7+27+32..39+44+45+101 -warn-error +5
+bsc_flags = -bs-suffix -nostdlib -I "C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\ocaml" -color always
+ppx_flags = 
+g_pkg_incls = -I C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react\lib\ocaml -I C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native\lib\ocaml -I C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\reason-react-native-maps\lib\ocaml
+bs_package_dev_includes = 
+g_ns = -bs-ns ReasonReactNativeMapsSuperCluster
+bsb_dir_group = 0
+refmt = C:\Users\Christopher\repositories\reason-react-native-maps-super-cluster\cluster-example\node_modules\bs-platform\lib\refmt.exe
+reason_react_jsx = -bs-jsx 3
+refmt_flags = --print binary
+g_lib_incls = -I . -I src
+rule build_ast_and_module_sets_from_re
+  command = $bsc -pp "$refmt $refmt_flags" $reason_react_jsx  $ppx_flags $warnings $bsc_flags -c -o $out -bs-syntax-only -bs-binary-ast -impl $in
+  description = [34mBuilding[39m [2m${out}[22m
+build src\ClusteredMapView.mlast : build_ast_and_module_sets_from_re $src_root_dir\src\ClusteredMapView.re
+rule build_deps
+  command = $bsdep $g_ns -g $bsb_dir_group $in
+  restat = 1
+  description = [34mBuilding[39m [2m${out}[22m
+build src\ClusteredMapView.d : build_deps src\ClusteredMapView.mlast
+rule re_cmj_cmi
+  command = $bsc $g_pkg_flg  -bs-re-out -bs-super-errors $g_pkg_incls $g_lib_incls $bsc_extra_includes $warnings $bsc_flags $gentypeconfig -o $out -c  $in $postbuild
+  dyndep = $in_e.d
+  restat = 1
+  description = [34mBuilding[39m [2m${out}[22m
+build src\ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmj |  $src_root_dir\src\ClusteredMapView.bs.js src\ClusteredMapView-ReasonReactNativeMapsSuperCluster.cmi : re_cmj_cmi src\ClusteredMapView.mlast ||  src\ClusteredMapView.d
+  g_pkg_flg = $g_pkg_flg  -bs-package-output es6:src
+rule build_package
+  command = $bsc -w -49 -no-alias-deps -bs-cmi-only -c $in
+  restat = 1
+  description = [34mBuilding[39m [2m${out}[22m
+build ReasonReactNativeMapsSuperCluster.cmi : build_package ReasonReactNativeMapsSuperCluster.mlmap
