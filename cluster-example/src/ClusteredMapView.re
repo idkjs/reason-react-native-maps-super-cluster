@@ -7,6 +7,12 @@ type tData = {
 };
 
 [@bs.module "react-native-maps-super-cluster/ClusteredMapView"]
+[@bs.scope "react-native-maps-super-cluster"]
 [@react.component]
-external make: (~data: array(tData), ~accessor: unit => unit) => React.element =
+// Required
+external make:
+  (~data: array(tData), ~accessor: unit => unit) =>
+  // Optional
+  // MapView props (copy below)
+  React.element =
   "ClusteredMapView";
